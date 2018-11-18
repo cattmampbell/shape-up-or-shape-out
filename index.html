@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Title -->
+    <title>Shape Up or Shape Out</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Body -->
+<body>
+    <!-- Container -->
+    <div class="header-container">
+        <!-- Row 1 -->
+        <div class="row col-12 justify-content-center mt-2 mb-4">
+            <!-- Rectangle -->
+            <div class="rectangle-input mx-2">
+                <div class="input-group input-group-sm">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">
+                            Rectangle
+                        </span>
+                    </div>
+                    <input type="text" class="form-control input-small" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <input type="text" class="form-control input-small" placeholder="Width" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                            Insert
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Square -->
+            <div class="square-input mx-2">
+                <div class="input-group input-group-sm">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">
+                            Square
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                            Insert
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Circle -->
+            <div class="circle-input mx-2">
+                <div class="input-group input-group-sm">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">
+                            Circle
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Radius" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                            Insert
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Triangle -->
+            <div class="circle-input mx-2">
+                <div class="input-group input-group-sm">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">
+                            Triangle
+                        </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                            Insert
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Row 2 -->
+        <div class="row col-12 justify-content-center mb-4">
+            <!-- Drawing Board -->
+            <div class="card" id="drawingBoard">
+                
+            </div>
+            <!-- Shape Information -->
+            <div class="card" id="shapeInformation">
+                <div class="card-header text-white bg-secondary sidepanel-header">
+                    Shape
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item" id="shapeName">
+                        <span class="sidepanel-list-item ml-3">
+                            Name:
+                        </span> 
+                        <!-- Name -->
+                    </li>
+                    <li class="list-group-item" id="shapeHeight">
+                        <span class="sidepanel-list-item ml-3">
+                            Height:
+                        </span>
+                        <!-- Height -->
+                    </li>
+                    <li class="list-group-item" id="shapeWidth">
+                        <span class="sidepanel-list-item ml-3">
+                            Width:
+                        </span>
+                        <!-- Width -->
+                    </li>
+                    <li class="list-group-item" id="shapeRadius">
+                        <span class="sidepanel-list-item ml-3">
+                            Radius:
+                        </span>
+                        <!-- Radius -->
+                    </li>
+                    <li class="list-group-item" id="shapeArea">
+                        <span class="sidepanel-list-item ml-3">
+                            Area:
+                        </span>
+                        <!-- Area -->
+                    </li>
+                    <li class="list-group-item" id="shapePerimeter">
+                        <span class="sidepanel-list-item ml-3">
+                            Perimeter:
+                        </span>
+                        <!-- Perimeter -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Scripts JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
