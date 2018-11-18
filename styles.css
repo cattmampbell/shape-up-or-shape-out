@@ -1,0 +1,26 @@
+.input-group>.custom-file, 
+.input-group>.custom-select, 
+.input-group>.form-control {
+    width: 6rem;
+}
+
+#drawingBoard {
+    width: 42rem;
+    height: 42rem;
+    margin-right: 1rem;
+    background-color: rgb(233, 236, 238);
+}
+
+#shapeInformation {
+    width: 20rem;
+    height: 22rem;
+}
+
+.sidepanel-header {
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.sidepanel-list-item {
+    font-weight: 500;
+}
