@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Title -->
-    <title>Shape Up or Shape Out</title>
+    <title>Shape-Up or Shape-Out</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Styles CSS -->
@@ -16,120 +16,126 @@
     <!-- Container -->
     <div class="header-container">
         <!-- Row 1 -->
-        <div class="row col-12 justify-content-center mt-2 mb-4">
-            <!-- Rectangle -->
-            <div class="rectangle-input mx-2">
-                <div class="input-group input-group-sm">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-sm">
-                            Rectangle
-                        </span>
-                    </div>
-                    <input type="text" class="form-control input-small" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                    <input type="text" class="form-control input-small" placeholder="Width" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button">
-                            Insert
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- Square -->
-            <div class="square-input mx-2">
-                <div class="input-group input-group-sm">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-sm">
-                            Square
-                        </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button">
-                            Insert
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- Circle -->
-            <div class="circle-input mx-2">
-                <div class="input-group input-group-sm">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-sm">
-                            Circle
-                        </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Radius" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button">
-                            Insert
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- Triangle -->
-            <div class="circle-input mx-2">
-                <div class="input-group input-group-sm">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="inputGroup-sizing-sm">
-                            Triangle
-                        </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button">
-                            Insert
-                        </button>
-                    </div>
-                </div>
-            </div>
+        <div id="row1" class="row col-12 justify-content-center">
+            <h1 class="h1 text-center py-4">
+                Shape-Up or Shape-Out
+            </h1>
         </div>
         <!-- Row 2 -->
+        <div class="row col-12 justify-content-center mb-3">
+            <!-- Rectangle -->
+            <form action="#">
+                <div class="rectangle-input mx-2">
+                    <div class="input-group input-group-sm">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">
+                                Rectangle
+                            </span>
+                        </div>
+                        <input id="rectangleLengthInput" class="form-control input-small" type="text" placeholder="Length" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        <input id="rectangleWidthInput" class="form-control input-small" type="text" placeholder="Width" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        <div class="input-group-append">
+                            <input id="insertRectangleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- Square -->
+            <form action="#">
+                <div class="square-input mx-2">
+                    <div class="input-group input-group-sm">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">
+                                Square
+                            </span>
+                        </div>
+                        <input id="squareSideInput" class="form-control input-small" type="text" placeholder="Side" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        <div class="input-group-append">
+                            <input id="insertSquareButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- Circle -->
+            <form action="#">
+                <div class="circle-input mx-2">
+                    <div class="input-group input-group-sm">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">
+                                Circle
+                            </span>
+                        </div>
+                        <input id="circleRadiusInput" class="form-control" type="text" placeholder="Radius" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        <div class="input-group-append">
+                            <input id="insertCircleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- Triangle -->
+            <form action="#">
+                <div class="circle-input mx-2">
+                    <div class="input-group input-group-sm">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm">
+                                Triangle
+                            </span>
+                        </div>
+                        <input id="triangleHeightInput" class="form-control" type="text" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                        <div class="input-group-append">
+                            <input id="insertTriangleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- Row 3 -->
         <div class="row col-12 justify-content-center mb-4">
             <!-- Drawing Board -->
-            <div class="card" id="drawingBoard">
+            <div id="drawingBoard" class="card">
                 
             </div>
             <!-- Shape Information -->
-            <div class="card" id="shapeInformation">
+            <div id="shapeInformation" class="card">
+                <!-- Header -->
                 <div class="card-header text-white bg-secondary sidepanel-header">
                     Shape
                 </div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item" id="shapeName">
-                        <span class="sidepanel-list-item ml-3">
+                    <!-- Name -->
+                    <li id="shapeName" class="list-group-item">
+                        <span class="sidepanel-list-item text-muted ml-3">
                             Name:
                         </span> 
-                        <!-- Name -->
+                        
                     </li>
-                    <li class="list-group-item" id="shapeHeight">
-                        <span class="sidepanel-list-item ml-3">
+                    <!-- Height -->
+                    <li id="shapeHeight" class="list-group-item">
+                        <span class="sidepanel-list-item text-muted ml-3">
                             Height:
                         </span>
-                        <!-- Height -->
+                        
                     </li>
-                    <li class="list-group-item" id="shapeWidth">
-                        <span class="sidepanel-list-item ml-3">
+                    <!-- Width -->
+                    <li id="shapeWidth" class="list-group-item">
+                        <span class="sidepanel-list-item text-muted ml-3">
                             Width:
                         </span>
-                        <!-- Width -->
+                        
                     </li>
-                    <li class="list-group-item" id="shapeRadius">
-                        <span class="sidepanel-list-item ml-3">
-                            Radius:
-                        </span>
-                        <!-- Radius -->
-                    </li>
-                    <li class="list-group-item" id="shapeArea">
-                        <span class="sidepanel-list-item ml-3">
+                    <!-- Area -->
+                    <li id="shapeArea" class="list-group-item">
+                        <span class="sidepanel-list-item text-muted ml-3">
                             Area:
                         </span>
-                        <!-- Area -->
+                        
                     </li>
-                    <li class="list-group-item" id="shapePerimeter">
-                        <span class="sidepanel-list-item ml-3">
+                    <!-- Perimeter -->
+                    <li id="shapePerimeter" class="list-group-item">
+                        <span class="sidepanel-list-item text-muted ml-3">
                             Perimeter:
                         </span>
-                        <!-- Perimeter -->
+                        
                     </li>
                 </ul>
             </div>
