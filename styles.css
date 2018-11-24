@@ -5,15 +5,15 @@
 }
 
 #drawingBoard {
-    width: 42rem;
-    height: 42rem;
+    width: 40rem;
+    height: 40rem;
     margin-right: 1rem;
-    background-color: rgb(233, 236, 238);
+    background-color: rgba(52, 58, 64, 0.750);
 }
 
 #shapeInformation {
-    width: 20rem;
-    height: 22rem;
+    width: 21rem;
+    height: 19rem;
 }
 
 .sidepanel-header {
@@ -23,4 +23,34 @@
 
 .sidepanel-list-item {
     font-weight: 500;
+}
+
+.shape {
+    position: absolute;
+}
+
+.shape,
+#rectangle,
+#square,
+#circle,
+#triangle {
+    border-style: dotted;
+    border-width: 0.125rem;
+}
+
+.shape:hover,
+#rectangle:hover,
+#square:hover,
+#circle:hover,
+#triangle:hover {
+    cursor: pointer;
+}
+
+#circle {
+    border-radius: 50%;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
 }
