@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,81 +11,62 @@
     <!-- Styles CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <!-- Body -->
 <body>
     <!-- Container -->
     <div class="header-container">
         <!-- Row 1 -->
-        <div id="row1" class="row col-12 justify-content-center">
-            <h1 class="h1 text-center py-4">
-                Shape-Up or Shape-Out
-            </h1>
+        <div class="row col-12 justify-content-center">
+            <h1 class="h1 text-center py-4">Shape-Up or Shape-Out</h1>
         </div>
         <!-- Row 2 -->
         <div class="row col-12 justify-content-center mb-3">
-            <!-- Rectangle -->
+            <!-- Rectangle Form/Input -->
             <form action="#">
-                <div class="rectangle-input mx-2">
-                    <div class="input-group input-group-sm">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroup-sizing-sm">
-                                Rectangle
-                            </span>
-                        </div>
-                        <input id="rectangleLengthInput" class="form-control input-small" type="text" placeholder="Length" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                        <input id="rectangleWidthInput" class="form-control input-small" type="text" placeholder="Width" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                        <div class="input-group-append">
-                            <input id="insertRectangleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
-                        </div>
+                <div class="input-group input-group-sm mx-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Rectangle</span>
+                    </div>
+                    <input id="rectangleLengthInput" class="form-control input-small" type="text" placeholder="Length" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <input id="rectangleWidthInput" class="form-control input-small" type="text" placeholder="Width" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <div class="input-group-append">
+                        <input id="insertRectangleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
                     </div>
                 </div>
             </form>
-            <!-- Square -->
+            <!-- Square Form/Input -->
             <form action="#">
-                <div class="square-input mx-2">
-                    <div class="input-group input-group-sm">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroup-sizing-sm">
-                                Square
-                            </span>
-                        </div>
-                        <input id="squareSideInput" class="form-control input-small" type="text" placeholder="Side" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                        <div class="input-group-append">
-                            <input id="insertSquareButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
-                        </div>
+                <div class="input-group input-group-sm mx-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Square</span>
+                    </div>
+                    <input id="squareSideInput" class="form-control input-small" type="text" placeholder="Side" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <div class="input-group-append">
+                        <input id="insertSquareButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
                     </div>
                 </div>
             </form>
-            <!-- Circle -->
+            <!-- Circle Form/Input -->
             <form action="#">
-                <div class="circle-input mx-2">
-                    <div class="input-group input-group-sm">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroup-sizing-sm">
-                                Circle
-                            </span>
-                        </div>
-                        <input id="circleRadiusInput" class="form-control" type="text" placeholder="Radius" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                        <div class="input-group-append">
-                            <input id="insertCircleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
-                        </div>
+                <div class="input-group input-group-sm mx-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Circle</span>
+                    </div>
+                    <input id="circleRadiusInput" class="form-control" type="text" placeholder="Radius" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <div class="input-group-append">
+                        <input id="insertCircleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
                     </div>
                 </div>
             </form>
-            <!-- Triangle -->
+            <!-- Triangle Form/Input -->
             <form action="#">
-                <div class="circle-input mx-2">
-                    <div class="input-group input-group-sm">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroup-sizing-sm">
-                                Triangle
-                            </span>
-                        </div>
-                        <input id="triangleHeightInput" class="form-control" type="text" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-                        <div class="input-group-append">
-                            <input id="insertTriangleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
-                        </div>
+                <div class="input-group input-group-sm mx-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroup-sizing-sm">Triangle</span>
+                    </div>
+                    <input id="triangleHeightInput" class="form-control" type="text" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+                    <div class="input-group-append">
+                        <input id="insertTriangleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
                     </div>
                 </div>
             </form>
@@ -92,61 +74,37 @@
         <!-- Row 3 -->
         <div class="row col-12 justify-content-center mb-4">
             <!-- Drawing Board -->
-            <div id="drawingBoard" class="card">
-                
-            </div>
+            <div id="drawingBoard" class="card"></div>
             <!-- Shape Information -->
             <div id="shapeInformation" class="card">
                 <!-- Header -->
-                <div class="sidepanel-header card-header text-white bg-secondary">
-                    Shape
-                </div>
+                <div class="shape-information-header card-header bg-secondary">Shape</div>
+                <!-- Unordered List -->
                 <ul class="list-group list-group-flush">
                     <!-- Name -->
-                    <li class="list-group-item">
-                        <span id="nameSpan" class="sidepanel-span ml-3">
-                            Name:
-                        </span> 
-                        <span id="shapeName" class="sidepanel-list-item ml-1">
-                            
-                        </span>
+                    <li id="nameListItem" class="list-group-item">
+                        <span id="nameLabelSpan" class="shape-information-label ml-3">Name:</span> 
+                        <span id="nameValueSpan" class="shape-information-value ml-1"></span>
                     </li>
                     <!-- Height -->
-                    <li class="list-group-item">
-                        <span id="heightSpan" class="sidepanel-span ml-3">
-                            Height:
-                        </span>
-                        <span id="shapeHeight" class="sidepanel-list-item ml-1">
-                            
-                        </span>
+                    <li id="heightListItem" class="list-group-item">
+                        <span id="heightLabelSpan" class="shape-information-label ml-3">Height:</span>
+                        <span id="heightValueSpan" class="shape-information-value ml-1"></span>
                     </li>
                     <!-- Width -->
-                    <li class="sidepanel-list-item list-group-item">
-                        <span id="widthSpan" class="sidepanel-span ml-3">
-                            Width:
-                        </span>
-                        <span id="shapeWidth" class="sidepanel-list-item ml-1">
-
-                        </span>
+                    <li id="widthListItem" class="list-group-item">
+                        <span id="widthLabelSpan" class="shape-information-label ml-3">Width:</span>
+                        <span id="widthValueSpan" class="shape-information-value ml-1"></span>
                     </li>
                     <!-- Area -->
-                    <li class="list-group-item">
-                        <span id="areaSpan" class="sidepanel-span ml-3">
-                            Area:
-                        </span>
-                        <span id="shapeArea" class="sidepanel-list-item ml-1">
-
-                        </span>
+                    <li is="areaListItem" class="list-group-item">
+                        <span id="areaLabelSpan" class="shape-information-label ml-3">Area:</span>
+                        <span id="areaValueSpan" class="shape-information-value ml-1"></span>
                     </li>
                     <!-- Perimeter -->
-                    <li class="list-group-item">
-                        <span id="perimeterSpan" class="sidepanel-span ml-3">
-                            Perimeter:
-                        </span>
-                        <span id="shapePerimeter" class="sidepanel-list-item ml-1">
-
-                        </span>
-                        
+                    <li id="perimeterListItem" class="list-group-item">
+                        <span id="perimeterLabelSpan" class="shape-information-label ml-3">Perimeter:</span>
+                        <span id="perimeterValueSpan" class="shape-information-value ml-1"></span>
                     </li>
                 </ul>
             </div>
