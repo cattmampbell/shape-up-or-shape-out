@@ -8,7 +8,7 @@
     width: 40rem;
     height: 40rem;
     margin-right: 1rem;
-    background-color: rgba(52, 58, 64, 0.750);
+    background-color: rgba(52, 58, 64, 0.600);
     border-radius: 0.250rem;
 }
 
@@ -17,19 +17,22 @@
     height: 19rem;
 }
 
-.sidepanel-header {
-    font-weight: 400;
-    font-size: 1.125rem;
-}
-
-.sidepanel-list-item {
-    font-weight: 400;
-    color: #6c757d;
-}
-
-.sidepanel-span {
+.shape-information-header {
     font-weight: 500;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
+.shape-information-label {
+    font-weight: 500;
+    font-size: 1.0625rem;
     color: #343a40;
+}
+
+.shape-information-value {
+    font-weight: 400;
+    font-size: 1.03125rem;
+    color: #6c757d;
 }
 
 .shape {
@@ -37,20 +40,20 @@
 }
 
 .shape,
-#rectangle,
-#square,
-#circle,
-#triangle {
-    opacity: 0.575;
+#Rectangle,
+#Square,
+#Circle,
+#Triangle {
+    opacity: 0.700;
 }
 
 .shape:hover,
-#rectangle:hover,
-#square:hover,
-#circle:hover,
-#triangle:hover {
+#Rectangle:hover,
+#Square:hover,
+#Circle:hover,
+#Triangle:hover {
     cursor: pointer;
-    opacity: 0.775;
+    opacity: 0.800;
 }
 
 #Rectangle,
@@ -58,16 +61,16 @@
     border-radius: 0.125rem;
 }
 
-#circle {
+#Circle {
     border-radius: 50%;
 }
 
-#triangle {
+#Triangle {
     width: 0;
     height: 0;
     border-bottom-style: solid;
+    border-bottom-right-radius: 0.125rem;
     border-right-style: solid;
     border-right-color: transparent;
     border-top-left-radius: 0.125rem;
-    border-bottom-right-radius: 0.125rem
 }
