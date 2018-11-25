@@ -9,6 +9,7 @@
     height: 40rem;
     margin-right: 1rem;
     background-color: rgba(52, 58, 64, 0.750);
+    border-radius: 0.250rem;
 }
 
 #shapeInformation {
@@ -34,8 +35,7 @@
 #square,
 #circle,
 #triangle {
-    border-style: dotted;
-    border-width: 0.125rem;
+    opacity: 0.575;
 }
 
 .shape:hover,
@@ -44,6 +44,12 @@
 #circle:hover,
 #triangle:hover {
     cursor: pointer;
+    opacity: 0.775;
+}
+
+#rectangle,
+#square {
+    border-radius: 0.125rem;
 }
 
 #circle {
@@ -53,4 +59,9 @@
 #triangle {
     width: 0;
     height: 0;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-right-color: transparent;
+    border-top-left-radius: 0.125rem;
+    border-bottom-right-radius: 0.125rem
 }
