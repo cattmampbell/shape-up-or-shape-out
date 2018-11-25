@@ -23,7 +23,13 @@
 }
 
 .sidepanel-list-item {
+    font-weight: 400;
+    color: #6c757d;
+}
+
+.sidepanel-span {
     font-weight: 500;
+    color: #343a40;
 }
 
 .shape {
@@ -47,8 +53,8 @@
     opacity: 0.775;
 }
 
-#rectangle,
-#square {
+#Rectangle,
+#Square {
     border-radius: 0.125rem;
 }
 
