@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const shapeCount = () => {
         if(shapes.length > 0) {
             resetButton.removeAttribute("disabled");
+            resetButton.classList.remove("btn-outline-secondary");
+            resetButton.classList.add("btn-secondary");
         } else if(shapes.length === 0) {
             resetButton.setAttribute("disabled", "true");
         }
