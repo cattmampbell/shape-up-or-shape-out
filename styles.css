@@ -5,9 +5,9 @@
 }
 
 #drawingBoard {
-    width: 41.875rem;
+    width: 41.575rem;
     height: 41.875rem;
-    margin-right: 1rem;
+    margin-right: 1.15rem;
     background-color: rgba(52, 58, 64, 0.600);
     border-radius: 0.250rem;
 }
