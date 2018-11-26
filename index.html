@@ -22,51 +22,51 @@
         <!-- Row 2 -->
         <div class="row col-12 justify-content-center mb-3">
             <!-- Rectangle Form/Input -->
-            <form action="#">
-                <div class="input-group input-group-sm mx-2">
+            <form class="mx-2" action="#">
+                <div class="input-group input-group-sm">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">Rectangle</span>
                     </div>
                     <input id="rectangleLengthInput" class="form-control input-small" type="text" placeholder="Length" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     <input id="rectangleWidthInput" class="form-control input-small" type="text" placeholder="Width" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     <div class="input-group-append">
-                        <input id="insertRectangleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
+                        <input id="insertRectangleButton" class="button btn btn-outline-secondary" type="submit" value="Insert" disabled>
                     </div>
                 </div>
             </form>
             <!-- Square Form/Input -->
-            <form action="#">
-                <div class="input-group input-group-sm mx-2">
+            <form class="mx-2" action="#">
+                <div class="input-group input-group-sm">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">Square</span>
                     </div>
                     <input id="squareSideInput" class="form-control input-small" type="text" placeholder="Side" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     <div class="input-group-append">
-                        <input id="insertSquareButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
+                        <input id="insertSquareButton" class="button btn btn-outline-secondary" type="submit" value="Insert" disabled>
                     </div>
                 </div>
             </form>
             <!-- Circle Form/Input -->
-            <form action="#">
-                <div class="input-group input-group-sm mx-2">
+            <form class="mx-2" action="#">
+                <div class="input-group input-group-sm">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">Circle</span>
                     </div>
                     <input id="circleRadiusInput" class="form-control" type="text" placeholder="Radius" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     <div class="input-group-append">
-                        <input id="insertCircleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
+                        <input id="insertCircleButton" class="button btn btn-outline-secondary" type="submit" value="Insert" disabled>
                     </div>
                 </div>
             </form>
             <!-- Triangle Form/Input -->
-            <form action="#">
-                <div class="input-group input-group-sm mx-2">
+            <form class="mx-2" action="#">
+                <div class="input-group input-group-sm">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="inputGroup-sizing-sm">Triangle</span>
                     </div>
                     <input id="triangleHeightInput" class="form-control" type="text" placeholder="Height" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     <div class="input-group-append">
-                        <input id="insertTriangleButton" class="btn btn-outline-secondary" type="submit" value="Insert" disabled>
+                        <input id="insertTriangleButton" class="button btn btn-outline-secondary" type="submit" value="Insert" disabled>
                     </div>
                 </div>
             </form>
@@ -80,7 +80,7 @@
                 <!-- Header -->
                 <div class="shape-information-header card-header bg-secondary">Shape</div>
                 <!-- Unordered List -->
-                <ul class="list-group list-group-flush">
+                <ul id="shapeInformationList" class="list-group list-group-flush">
                     <!-- Name -->
                     <li id="nameListItem" class="list-group-item">
                         <span id="nameLabelSpan" class="shape-information-label ml-3">Name:</span> 
@@ -107,6 +107,8 @@
                         <span id="perimeterValueSpan" class="shape-information-value ml-1"></span>
                     </li>
                 </ul>
+                <!-- Reset Button -->
+                <button id="resetButton" class="btn btn-outline-secondary mt-3" disabled>Reset</button>
             </div>
         </div>
     </div>
