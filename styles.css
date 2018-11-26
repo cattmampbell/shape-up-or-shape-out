@@ -5,16 +5,16 @@
 }
 
 #drawingBoard {
-    width: 40rem;
-    height: 40rem;
+    width: 41.875rem;
+    height: 41.875rem;
     margin-right: 1rem;
     background-color: rgba(52, 58, 64, 0.600);
     border-radius: 0.250rem;
 }
 
 #shapeInformation {
-    width: 21rem;
-    height: 19rem;
+    width: 21.125rem;
+    height: 18.917235rem;
 }
 
 .shape-information-header {
@@ -44,7 +44,7 @@
 #Square,
 #Circle,
 #Triangle {
-    opacity: 0.700;
+    opacity: 0.600;
 }
 
 .shape:hover,
@@ -53,7 +53,7 @@
 #Circle:hover,
 #Triangle:hover {
     cursor: pointer;
-    opacity: 0.800;
+    opacity: 0.850;
 }
 
 #Rectangle,
