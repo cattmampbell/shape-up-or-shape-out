@@ -5,15 +5,15 @@
 }
 
 #drawingBoard {
-    width: 41.575rem;
-    height: 41.875rem;
+    width: 40.675rem;
+    height: 40.675rem;
     margin-right: 1.15rem;
     background-color: rgba(52, 58, 64, 0.600);
     border-radius: 0.250rem;
 }
 
 #shapeInformation {
-    width: 21.125rem;
+    width: 21.425rem;
     height: 18.917235rem;
 }
 
